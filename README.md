@@ -1,4 +1,4 @@
-        ## **🔹 Officially Validated & Fully Scalable `fx_CleanText` Function**
+## **Fully Scalable `fx_CleanText` Function**
 ```m
 fx_CleanText = (text as nullable text) as nullable text =>
 let
