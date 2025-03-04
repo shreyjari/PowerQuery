@@ -96,8 +96,3 @@ in
 | `"J@ne D##oe 123!!"` | `"Jane Doe"` |
 
 ---
-
-## **🔹 Final Thoughts**
-🚀 **This `fx_CleanText` function is now fully scalable, optimized, and validated by Power Query official documentation.**  
-🌍 **It works for ALL cultural and ethnic names.**  
-📌 **Ensures accurate, clean, and formatted names in Power BI.**  
