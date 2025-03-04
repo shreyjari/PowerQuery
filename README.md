@@ -14,6 +14,8 @@
 | **Preserves Suffixes (Jr., Sr., II, III)** | ❌ Lost | ✅ Kept correctly |
 | **Scalable for Large Datasets** | ❌ Requires multiple transformations | ✅ Optimized for performance |
 
+
+## **Here's the logic**
 ```m
 fx_CleanText = (text as nullable text) as nullable text =>
 let
