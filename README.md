@@ -96,3 +96,37 @@ in
 | `"J@ne D##oe 123!!"` | `"Jane Doe"` |
 
 ---
+
+
+### **How to Use `fx_CleanText` in Your Power Query Project**  
+*A step-by-step guide to integrate the function in your project.*
+
+---
+
+## **Step 1: Create the Function in Power Query**  
+1. Open **Power Query Editor** in Power BI.  
+2. Click **New Source > Blank Query**.  
+3. Rename it to **`fx_CleanText`**.  
+4. Open **Advanced Editor** and paste the code block
+5. Click **Done** and **Close & Apply**.
+
+---
+
+## **Step 2: Apply the Function to Your Dataset**  
+1. Select your table in **Power Query Editor**.  
+2. Click **Add Column > Custom Column**.  
+3. In the formula box, enter:  
+
+   ```m
+   fx_CleanText([YourColumnName])
+   ```
+
+4. Click **OK** → Validate the results.  
+5. Click **Close & Apply** to save changes.
+
+---
+
+## **Example Usage**
+```m
+= Table.TransformColumns(YourTable, {{"Name", fx_CleanText, type text}})
+```
