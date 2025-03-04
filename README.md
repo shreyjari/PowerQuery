@@ -1,4 +1,19 @@
 ## **Fully Scalable `fx_CleanText` Function**
+**Power Query’s default functions lack intelligent name formatting, global script handling, and suffix preservation. `fx_CleanText` fills these gaps while optimizing performance.**
+
+### **Power Query Out-of-Box vs. Custom `fx_CleanText`**
+
+| **Feature**                  | **Power Query (OOB)** | **Custom `fx_CleanText`** |
+|------------------------------|----------------------|----------------------|
+| **Removes Non-Printable Characters** | ✅ `Text.Clean()` | ✅ `Text.Clean()` |
+| **Removes Extra Spaces** | ❌ No built-in support | ✅ Trims & normalizes spaces |
+| **Removes Numbers & Special Symbols** | ❌ Requires `Text.Remove()` | ✅ Fully automated |
+| **Handles Global Name Scripts (Unicode)** | ❌ Limited | ✅ Supports **Latin, Cyrillic, Arabic, Chinese, Thai, etc.** |
+| **Proper Case Formatting (McDonald, O’Connor, etc.)** | ❌ `Text.Proper()` misformats names | ✅ Smart casing logic |
+| **Preserves Hyphens & Apostrophes** | ❌ Often removed | ✅ Retained correctly |
+| **Preserves Suffixes (Jr., Sr., II, III)** | ❌ Lost | ✅ Kept correctly |
+| **Scalable for Large Datasets** | ❌ Requires multiple transformations | ✅ Optimized for performance |
+
 ```m
 fx_CleanText = (text as nullable text) as nullable text =>
 let
