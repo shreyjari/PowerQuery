@@ -8,8 +8,11 @@ A collection of **optimized Power Query (M)** scripts designed to enhance **data
 
 ## Getting Started
 1. Open **Power Query Editor** in Power BI.
-2. Import the required function (`.pq` file).
-3. Apply it in your transformations.
+2. Create a Blank query.
+3. Copy the code snippet from (`.pq` file) into the Power Query Advanced Editor.
+4. Apply it in your transformations.
+5. A new query gets created as a function.
+6. Apply the function in your transformation.
 
 ## License
 This project is open-source under the **MIT License**.
