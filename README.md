@@ -3,7 +3,8 @@
 A collection of **optimized Power Query (M)** scripts designed to enhance **data transformation, cleaning, and automation** in Power BI.
 
 ## 📂 Project Structure
-- **`fx_CleanText`** – Advanced name cleaning function for global datasets.
+1. **`fx_CleanText`** – Advanced name cleaning function for global datasets.
+2. **`fx_CleanEmail`** - A handy email cleaning & sanitizing function that can be easily extended to your project depending on your situation.
 - **More Functions Coming Soon...**
 
 ## Getting Started
