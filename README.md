@@ -24,3 +24,6 @@ Pull requests are welcome! Feel free to submit new **Power Query functions** or 
 ## 🔗 Resources
 - [Microsoft Power Query Docs](https://learn.microsoft.com/en-us/power-query/)
 - [Power BI Community](https://community.powerbi.com/)
+
+## GitHub Cheatsheet
+- [Git Commands](https://education.github.com/git-cheat-sheet-education.pdf)
